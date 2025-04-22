@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: 'Poppins', sans-serif; */
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: "Merriweather", serif;
+}
+
+header {
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.heal a {
+    color: blue;
+    font-size: 22px;
+}
+
+nav a {
+    color: blue;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.hero-image {
+    background-image: url('images/heavenly-clouds-ri6y62qztejk16mz.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 0 0 50% 50%;
+}
+
+.hero-image h2 {
+    color: #f0f0f0;
+    font-size: 4rem;
+    /* position: absolute; */
+    /* font-family: "Sofia", sans-serif; */
+    
+}
+
+#heal h2 {
+    text-align: center;
+    color: blue;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#heal h2::before {
+    content: '🌌 ';
+    /* display: block; */
+    width: 50px;
+    height: 2px;
+    /* background-color: blue; */
+    margin: 10px auto;
+}
+
+#heal h2::after {
+    content: ' 🎚';
+    /* display: block; */
+    width: 50px;
+    height: 2px;
+    /* background-color: blue; */
+    margin: 10px auto;
+}
+
+.songs {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient( white, blue);
+}
