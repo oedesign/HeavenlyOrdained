@@ -92,5 +92,5 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    background-image: linear-gradient( white, blue);
+    background-image: linear-gradient(  rgb(192, 30, 192), blue, white);
 }
