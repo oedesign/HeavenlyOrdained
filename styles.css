@@ -21,9 +21,13 @@ header {
     flex-wrap: wrap;
 }
 
+h1 {
+    font-size: 28px;
+}
+
 .heal a {
     color: blue;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 nav a {
